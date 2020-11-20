@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <!-- パッケージの名前 -->
+  <name>hello_world_py</name>
+  <!-- パッケージのバージョン -->
+  <version>0.0.0</version>
+  <!-- 概要 -->
+  <description>The hello_world package written in Python</description>
+  <!-- メンテナー -->
+  <maintainer email="edu@rt-net.jp">RT Corporation</maintainer>
+  <!-- 作成者/コントリビュータ -->
+  <author email="kozasa@rt-net.jp">Shuhei Kozasa</author>
+
+  <!-- ライセンスの指定がここでできます -->
+  <license>Apache License 2.0</license>
+  
+  <!-- 関連するウェブサイトへリンクできます -->
+  <url type="website">http://www.ros.org/wiki/rospy_tutorials</url>
+  <url type="bugtracker">https://github.com/rt-education/ros_hello_world_py/issues</url>
+  <url type="repository">https://github.com/rt-education/ros_hello_world_py</url>
+  
+  <!-- 以下はパッケージに必要なものを指定しています -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+</package>
